@@ -12,6 +12,11 @@
     <artifactId>elastic-news-integration</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -33,6 +38,12 @@
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-multipart-provider</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>pl.whiteit</groupId>
+            <artifactId>elastic-news-common</artifactId>
+            <version>1.0.0-Alpha</version>
         </dependency>
     </dependencies>
 
