@@ -12,3 +12,7 @@
 \.idea/encodings\.xml
 
 \.idea/
+
+elastic-news-integration/target/
+
+elastic-news-common/target/
