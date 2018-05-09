@@ -1,4 +1,4 @@
-package pl.whiteit.elastic.news.core.app.rest;
+package pl.whiteit.elastic.news.core.rest;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -9,4 +9,6 @@ import javax.ws.rs.core.Application;
 */
 @ApplicationPath("/api")
 public class RestApplication extends Application {
+
 }
+

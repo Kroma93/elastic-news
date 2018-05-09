@@ -13,6 +13,7 @@
         <module>elastic-news-api</module>
         <module>elastic-news-integration</module>
         <module>elastic-news-core</module>
+        <module>elastic-news-common</module>
     </modules>
 
     <properties>
