@@ -11,7 +11,7 @@ public class NewsServiceTest {
 
     @Test
     public void getNewsFromNewsApi() {
-        NewsService newsService = new NewsService();
+        NewsApiService newsService = new NewsApiService();
         NewsApiResponse newsFromNewsApi = newsService.getNewsFromNewsApi(new NewsApiRequest());
         assertNotNull(newsFromNewsApi);
         assertEquals("ok",newsFromNewsApi.status);

@@ -6,7 +6,7 @@ import pl.whiteit.elastic.news.integration.news.api.NewsApiBuilder;
 import pl.whiteit.elastic.news.integration.news.model.NewsApiRequest;
 import pl.whiteit.elastic.news.integration.news.model.NewsApiResponse;
 
-public class NewsService {
+public class NewsApiService {
 
     public NewsApiResponse getNewsFromNewsApi(NewsApiRequest newsApiRequest){
         NewsApi api = NewsApiBuilder.create(new ConfigurationImpl()).build().createTarget();

@@ -34,6 +34,13 @@
             <version>1.0.0-Alpha</version>
         </dependency>
 
+        <dependency>
+            <groupId>pl.whiteit</groupId>
+            <artifactId>elastic-news-common</artifactId>
+            <version>1.0.0-Alpha</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
