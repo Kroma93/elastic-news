@@ -10,8 +10,6 @@ import javax.inject.Inject;
 
 public abstract class BaseAction<T extends Object> {
 
-    @Inject
-    protected Logger logger;
 
     public abstract Response<T> execute() throws ServerException;
 

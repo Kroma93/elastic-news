@@ -5,4 +5,5 @@ public class NewsView {
     public String title;
     public String description;
     public String urlToImage;
+    public String url;
 }

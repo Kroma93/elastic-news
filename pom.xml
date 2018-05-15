@@ -9,11 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0.0-Alpha</version>
     <modules>
-        <module>elastic-news-web</module>
         <module>elastic-news-api</module>
         <module>elastic-news-integration</module>
-        <module>elastic-news-core</module>
         <module>elastic-news-common</module>
+        <module>elastic-news-web</module>
+
     </modules>
 
     <properties>
