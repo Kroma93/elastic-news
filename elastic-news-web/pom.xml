@@ -10,10 +10,43 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>elastic-news-web</artifactId>
+    <packaging>war</packaging>
+    <name>elastic-news-web</name>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>pl.whiteit</groupId>
+            <artifactId>elastic-news-api</artifactId>
+            <version>1.0.0-Alpha</version>
+        </dependency>
+        <dependency>
+            <groupId>pl.whiteit</groupId>
+            <artifactId>elastic-news-integration</artifactId>
+            <version>1.0.0-Alpha</version>
+        </dependency>
+
+        <dependency>
+            <groupId>pl.whiteit</groupId>
+            <artifactId>elastic-news-common</artifactId>
+            <version>1.0.0-Alpha</version>
+        </dependency>
+
+
+    </dependencies>
 
     <build>
-        <finalName>elastic-search-web</finalName>
+        <finalName>elastic-news-web</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -27,5 +60,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

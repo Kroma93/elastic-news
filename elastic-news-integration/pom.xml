@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>elastic-news-integration</artifactId>
+    <packaging>jar</packaging>
 
     <dependencies>
 
@@ -47,4 +48,13 @@
         </dependency>
     </dependencies>
 
+
+    <build>
+        <finalName>elastic-news-integration</finalName>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
