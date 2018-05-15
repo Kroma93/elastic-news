@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import NavBar from '../navbar/NavBar'
+import NavBar from '../navbar/NavBar';
 import NewsTopContainer from "../news/top/NewsTopContainer";
 
 
-export default class MainPage extends Component {
+export default class NewsPage extends Component {
   constructor(props) {
     super(props);
 
   }
 
-  render() {
+   render() {
     return (
       <div>
         <NavBar/>

@@ -30,7 +30,6 @@ export default class NewsTop extends Component {
       <div className="row">
         {renderListNews}
       </div>
-
     );
   }
 }

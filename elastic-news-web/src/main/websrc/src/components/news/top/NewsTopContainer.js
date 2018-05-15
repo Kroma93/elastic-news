@@ -2,7 +2,8 @@
 
 import React, {Component} from 'react';
 import 'whatwg-fetch';
-import NewsTop from './NewsTop'
+import Filter from "../../filter/Filter";
+import NewsTop from "./NewsTop";
 
 
 const API_HEADERS = {
@@ -15,7 +16,10 @@ export default class NewsTopContainer extends Component {
   constructor() {
     super(...arguments);
     this.state = {
-      news : []
+      news : [],
+      filter: {
+        category: "TECHNOLOGY"
+      }
     }
   }
 
@@ -26,7 +30,7 @@ export default class NewsTopContainer extends Component {
   }
 
   getData() {
-    fetch('/elastic-news/api/news/top', {method: 'GET', headers: API_HEADERS})
+    fetch('/elastic-news/api/news/by-filter', {method: 'POST', headers: API_HEADERS,body: JSON.stringify(this.prepareRequest())})
       .then((response) => response.json())
       .then((responseData) => {
         let newsUpdated = this.state.news;
@@ -38,10 +42,25 @@ export default class NewsTopContainer extends Component {
       });
   }
 
+  prepareRequest(){
+    let request = this.state.filter;
+    return request;
+  }
+
+  updateFilter(filterUpdated){
+    this.setState({filter: filterUpdated});
+    console.log(filterUpdated);
+    this.getData();
+  }
 
 
 
   render() {
-    return <NewsTop listNews={this.state.news}/>
+    return(
+      <div>
+        <Filter value={this.state.filter} updateFilter={this.updateFilter.bind(this)}/>
+        <NewsTop listNews={this.state.news}/>*
+      </div>
+    )
   }
 }

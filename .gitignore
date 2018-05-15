@@ -16,3 +16,9 @@
 elastic-news-integration/target/
 
 elastic-news-common/target/
+
+node_modules/
+
+elastic-news-web/target/
+
+elastic-news-api/target/
