@@ -64,11 +64,11 @@ Skrypt ten buduje wszystkie moduły mavenowe w projekcie, i projekt webowy za po
 
 ### Zrzuty
 ##### Wybrana Kategoria Technologia
-![Zrzut1](https://lh4.googleusercontent.com/DliU1SitDtCVW24d9ZkP4Wrr8lZpqvBQJW-mak7PhTCGRWJE6c4rKKn5Qa2ny_K3KXJraoR6M5EbkBA_oP5b=w2509-h1350-rw)
+![Zrzut1](resources/screen/screen1.png)
 
 ##### Wybrana Kategoria Zdrowie
-![Zrzut1](https://lh3.googleusercontent.com/H6bNNRMtCdA8XWaEFg6vMB2Yeem4ZUvJCAGCos28QZ5atsS4cAGCR4XjhfKiz071hveTs54wvaAQeiC1bZrk=w2509-h854-rw)
+![Zrzut1](resources/screen/screen2.png)
 
 ##### Wybór Kategorii - Wybrana Zdrowie
-![Zrzut1](https://lh3.googleusercontent.com/sy7fRnVFZ5BWO4vDCp2UB-VUTUiaxN7Qogv5QXjOyW_W0rWxXHTHkqreKl-7hn4up0jqS4hrMnIylPPiK_5i=w2509-h1350-rw)
+![Zrzut1](resources/screen/screen3.png)
 
