@@ -1,4 +1,4 @@
-package pl.whiteit.elastic.news.web.core.category.service;
+package pl.whiteit.elastic.news.web.core.category.mapper;
 
 import pl.whiteit.elastic.news.api.modules.news.model.CategoryView;
 import pl.whiteit.elastic.news.common.enums.CategoryNews;

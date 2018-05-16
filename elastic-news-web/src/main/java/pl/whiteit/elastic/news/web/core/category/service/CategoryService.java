@@ -2,6 +2,7 @@ package pl.whiteit.elastic.news.web.core.category.service;
 
 import pl.whiteit.elastic.news.api.modules.news.model.CategoryView;
 import pl.whiteit.elastic.news.common.enums.CategoryNews;
+import pl.whiteit.elastic.news.web.core.category.mapper.CategoryNewsToCategoryViewMapper;
 
 import java.util.Arrays;
 import java.util.List;

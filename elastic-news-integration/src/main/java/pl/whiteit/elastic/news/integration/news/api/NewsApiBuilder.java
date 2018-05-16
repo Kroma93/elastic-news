@@ -24,9 +24,7 @@ public class NewsApiBuilder {
         return this;
     }
 
-
     public NewsApi createTarget(){
-        System.out.println(resteasyClient);
         return resteasyClient.target(configuration.getNewsApiUrl()).proxy(NewsApi.class);
     }
 }

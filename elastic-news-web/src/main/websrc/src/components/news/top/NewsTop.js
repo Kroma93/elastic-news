@@ -14,7 +14,7 @@ export default class NewsTop extends Component {
 
         <div className="col-4 py-1" key={index}>
           <div className="card box-shadow">
-            <img className="card-img-top" src={news.urlToImage} alt="Card image cap"/>
+            <img className="card-img-top" src={news.urlToImage} alt=""/>
             <div className="card-body">
               <h5 className="card-title">{news.title} {index}</h5>
               <p className="card-text">{news.description} </p>

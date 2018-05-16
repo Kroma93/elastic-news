@@ -5,6 +5,7 @@ import pl.whiteit.elastic.news.integration.news.model.NewsApiRequest;
 import pl.whiteit.elastic.news.integration.news.model.NewsApiResponse;
 import pl.whiteit.elastic.news.integration.news.service.NewsApiService;
 import pl.whiteit.elastic.news.api.modules.news.model.form.FilterForm;
+import pl.whiteit.elastic.news.web.core.news.mapper.NewsResponseToViewMapper;
 
 import javax.inject.Inject;
 import java.util.List;

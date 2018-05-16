@@ -22,3 +22,5 @@ node_modules/
 elastic-news-web/target/
 
 elastic-news-api/target/
+
+elastic-news-web/src/main/webapp/assets/

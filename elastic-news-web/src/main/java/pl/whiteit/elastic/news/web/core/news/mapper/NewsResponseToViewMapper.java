@@ -1,4 +1,4 @@
-package pl.whiteit.elastic.news.web.core.news.service;
+package pl.whiteit.elastic.news.web.core.news.mapper;
 
 import pl.whiteit.elastic.news.api.modules.news.model.NewsView;
 import pl.whiteit.elastic.news.integration.news.model.NewsApiResponse;
